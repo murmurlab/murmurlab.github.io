@@ -101,7 +101,7 @@ body{
 }
 .tag1{
     font-size: 1vw;
-    width: 40vw;
+    /* width: 40vw; */
 }
 .black-text{
     color: black;
