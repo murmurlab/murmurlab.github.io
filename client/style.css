@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    height: 100vh;
+}
+.loader {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10vmin;
+    border: 16px solid #000000;
+    border-radius: 50%;
+    border-top: 16px solid blue;
+    border-bottom: 16px solid blue;
+    -webkit-animation: spin 4s cubic-bezier(0, -0.1, 1, -0.01) infinite;
+    animation: spin 4s cubic-bezier(0, -0.1, 1, -0.01) infinite;
+    margin: auto;
+    width: 85%;
+    height: 85%;
+    max-width: 85vh;
+    max-height: 85vw;
+    position: relative;
+    
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(6000deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(6000deg); }
+  }
+#box{
+    width: 100%;
+    height: 100%;
+}
+#load{
+    background-color: black;
+    color: blue;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    text-align: center;
+}
+#games{
+    text-align: center;
+    
+}
+
+#devlet:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0,0,0);
+    text-shadow: 0 0 1vh #0000ff, 0 0 1vh #0000ff;
+}
+#mur{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 4vh;
+    text-shadow: 0px 0px 10px #00ffff;
+    background-color: rgb(46, 46, 46);
+}
+#a{
+  display: none;
+}
+.main{
+    text-align: center;
+}
+#murmurgif{
+    height: 25%;
+    width: 25%;
+    max-width: 25vh;
+    max-height: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#games2{
+    color: black;
+    font-size: 4vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 0px 10px cyan;
+}
+.game{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5vh;
+    border-radius: 10px;
+    text-decoration: none;
+    float: left;
+    width: 48%;
+    margin: 1%;
+}
+.game:hover{
+    text-shadow: 0px 0px 7px;
+}
+.tag{
+    width: 20vw;
+    font-size: 1vw;
+}
+.tagu{
+    text-align: -webkit-center;
+}
+.tag1{
+    font-size: 1vw;
+    width: 40vw;
+}
+.black-text{
+    color: black;
+    text-decoration: none;
+}
+.neon{
+    background-color: rgb(255, 255, 255);
+    text-shadow: 0 0 1vh #ff0000, 0 0 1vh #0000ff;
+
+}
+.non{
+    text-decoration: line-through;
+}
+.murmurlabs{
+    background-color: #464646;
+    bottom: 0%;
+    position: fixed;
+    width: 100%;
+    height: 6%
+}
+.dc{
+    /* width: 10%; */
+    height: 100%;
+    font-size: 4vh;
+    margin: 0 2%;
+    float: left;
+    padding: 0.3%;
+}
+.uzay{
+    color: black;
+    text-shadow: 0px 0px 10px cyan;
+    text-decoration: none;
+}
+.r{
+    height: 100%;
+    font-size: 4vh;
+    margin: 3px;
+    float: right;
+    font-family: monospace;
+    background: black;
+    border-radius: 100px;
+    height: 100%;
+    width: 15%;
+    max-width: 6vh;
+    max-height: 18vw;
+    text-align: center;
+    /* border: 3px solid #81005c; */
+    box-shadow: 0px 0px 5px #c80080, 0px 0px 5px #c80080, 0px 0px 5px #c80080;
+}
+.midas{
+    color: white;
+    text-shadow: 0px 0px 10px #c80080, 0px 0px 10px #c80080;
+    text-decoration: none;
+}
+#aaa{
+    position: relative;
+    color: aliceblue;
+      text-align: center;
+  font-size: 2vh;
+    margin: 0;
+  
+}

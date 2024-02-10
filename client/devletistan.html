@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="murmurmurmurmurmurmurmurmurmurmurmur">
+    <meta name="keywords" content="JavaScript">
+    <meta name="author" content="murmur">
+    <meta name="google-signin-client_id" content="179093935575-hi380bs29g8ob1nbmhnv7vkl52nigmv8.apps.googleusercontent.com">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.3/socket.io.min.js" integrity="sha512-aC5ZfKOuGRUiJCv+E/EIWsj49E02BQpuLQbixZe+16Lm1R6AepHZA1xvY92XBQNNbwQoqG4DXCGxwoxBFb5Q1A==" crossorigin="anonymous"></script>
+    <script src="devletistan.js" defer></script>
+    <script src="https://apis.google.com/js/platform.js" onload="renderButton()" defer></script>
+    <link rel="stylesheet" href="devletistan.css">
+    <link rel="stylesheet" href="https://unpkg.com/7.css">
+    <title>Devletistan</title>
+</head>
+<body>
+    <div id="listl" style="display: none;" class="window" style="max-width: 300px">
+        <div class="title-bar">
+            <div class="title-bar-text">A window with contents</div>
+            <div class="title-bar-controls">
+                <button id="shrink" aria-label="Minimize"></button>
+                <button id="enlarge" aria-label="Maximize"></button>
+                <button id="close" aria-label="Close"></button>
+            </div>
+        </div>
+        <div class="window-body">
+            <p>There's so much room for activities!</p>
+            <div id="game">
+            </div>
+            <div id="loby" >
+                <button>ODALAR</button>
+                <div id="lobies" class="scrollmenu">
+                    <dl>
+                        <dt>lobi ismi</dt>
+                        <dd>lobi açıklama yazısı</dd>
+                    </dl>
+                    <button>KATIL</button>
+                    <br>
+                    <dl>
+                        <dt>lobi ismi</dt>
+                        <dd>lobi açıklama yazısı</dd>
+                    </dl>
+                    <button>KATIL</button>
+                    <br>
+                    <dl>
+                        <dt>lobi ismi</dt>
+                        <dd>lobi açıklama yazısı</dd>
+                    </dl>
+                    <button>KATIL</button>
+                    <br>
+                    <dl>
+                        <dt>lobi ismi</dt>
+                        <dd>lobi açıklama yazısı</dd>
+                    </dl>
+                    <button>KATIL</button>
+                    <br>
+                    <dl>
+                        <dt>lobi ismi</dt>
+                        <dd>lobi açıklama yazısı</dd>
+                    </dl>
+                    <button>KATIL</button>
+                    <br>
+                    <dl>
+                        <dt>lobi ismi</dt>
+                        <dd>lobi açıklama yazısı</dd>
+                    </dl>
+                    <button>KATIL</button>
+                    <br>
+                    <dl>
+                        <dt>lobi ismi</dt>
+                        <dd>lobi açıklama yazısı</dd>
+                    </dl>
+                    <button>KATIL</button>
+                    <br>
+                    <dl>
+                        <dt>lobi ismi</dt>
+                        <dd>lobi açıklama yazısı</dd>
+                    </dl>
+                    <button>KATIL</button>
+                    <br>
+                    <dl>
+                        <dt>lobi ismi</dt>
+                        <dd>lobi açıklama yazısı</dd>
+                    </dl>
+                    <button>KATIL</button>
+                    <br>
+                    <dl>
+                        <dt>lobi ismi</dt>
+                        <dd>lobi açıklama yazısı</dd>
+                    </dl>
+                    <button>KATIL</button>
+                    <br>
+                    <dl>
+                        <dt>lobi ismi</dt>
+                        <dd>lobi açıklama yazısı</dd>
+                    </dl>
+                    <button>KATIL</button>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="load">
+        <div class="loader">
+            <div>
+                <br>
+                <br>
+                <br>
+                Loading
+            </div>
+        </div>
+    </div>
+    <div id="block">
+        <div>
+            <h1 class="op">Giriş yapmadan oynayamazsın</h1>
+            <br>
+            <div id="my-signin2" class="g-signin2" data-onsuccess="onSignIn"></div>
+        </div>
+    </div>
+  
+    
+    <div id="main">
+        
+        
+        <div id="candiv">
+            <canvas id="can">
+        </div>
+        <div id="container">
+            <div id="profile"></div>
+            <div id="chat"></div>
+            <div id="empty"></div>
+        </div>
+        </canvas>
+        <div id="control-panel">
+            <button class="ax" id="subtn">Logout</button>
+            <input class="ax" type="text" name="" id="lobyName" placeholder="lobi name">
+            <input type="checkbox" name="overwrite" id="overwrite">
+            <label for="overwrite">?overwrite</label>
+            <button class="ax" id="crelob">Create Loby</button>
+            <button class="ax" id="list_lobby">lobby list</button>
+
+        </div>
+
+    </div>
+</body>
+</html>
