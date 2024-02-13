@@ -9,9 +9,5 @@
 
 
 window.onload = ()=>{
-    document.getElementById("load").setAttribute("style","display:none")
-  document.getElementById("a").addEventListener("change", ()=>{let xhr = new XMLHttpRequest();
-
-// xhr.open('POST', window.location.origin);
-// xhr.send(document.getElementById("a").value)
-                                                              })}
+  document.getElementById("load").setAttribute("style","display:none")
+}
