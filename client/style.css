@@ -171,7 +171,7 @@ body{
 .butter{
     overflow-wrap: break-word;
     font-family: cursive;
-    font-size: 3rem !important;
+    font-size: 4vmax;
     line-height: 6vmax;
     border-radius: 1rem;
     text-decoration: none;
