@@ -172,7 +172,7 @@ body{
     overflow-wrap: break-word;
     font-family: cursive;
     font-size: 3rem !important;
-    line-height: 5rem;
+    line-height: 5vmax;
     border-radius: 1rem;
     text-decoration: none;
     /* float: left; */
