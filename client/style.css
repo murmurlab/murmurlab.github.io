@@ -296,7 +296,7 @@ body{
     text-shadow: 0 0 0.5vh #ff0000, 0 0 0.5vh #0000ff; */
 }
 .butter:hover{
-    font-size: 330% !important;
+    font-size: 5vmax;
     border-radius: 0.5rem;
     box-shadow: 0rem 0.1rem 0.8rem #ff0000, 
     0rem -0.1rem 0.8rem #ff0000,
