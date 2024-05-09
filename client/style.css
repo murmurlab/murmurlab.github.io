@@ -289,7 +289,6 @@ body{
     text-shadow: 0 0 0.5vh #ff0000, 0 0 0.5vh #0000ff; */
 }
 .butter:hover{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 330% !important;
     border-radius: 0.5rem;
     box-shadow: 0rem 0.1rem 0.8rem #ff0000, 
