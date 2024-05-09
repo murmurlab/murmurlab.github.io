@@ -144,6 +144,7 @@ body{
     font-family: cursive;
 }
 .sponsor-text{
+    font-family: monospace;
     padding: 3%;
     text-align: center;
     color: #ffffff;
