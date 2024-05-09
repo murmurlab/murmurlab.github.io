@@ -55,6 +55,10 @@ body{
     text-shadow: 0 0 1vh #0000ff, 0 0 1vh #0000ff;
 }
 #mur{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 4vh;
     /* display: flex;
