@@ -281,7 +281,7 @@ body{
 }
 .neon{
     text-shadow: 0 0 0.5vh #ff0000, 0 0 0.5vh #0000ff, 0 0 0.5vh #ff0000, 0 0 0.5vh #0000ff;
-    background-color: rgba(104, 104, 104, 0.511);
+    background-color: rgba(71, 71, 71, 0.511);
 }
 .neon:hover{
     /* background-color: rgb(255, 255, 255);
