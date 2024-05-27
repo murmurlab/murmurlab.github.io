@@ -68,6 +68,7 @@ body{
 }
 
 .routes{
+    font-size: xxx-large !important;
     margin: auto !important;
     position: sticky;
     left: 50%;
