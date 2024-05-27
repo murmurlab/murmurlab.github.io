@@ -67,6 +67,12 @@ body{
     /* background-color: rgb(46, 46, 46); */
 }
 
+.routes{
+    margin: auto !important;
+    position: sticky;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 #menu{
     right: 0;
@@ -313,6 +319,8 @@ body{
     text-decoration: line-through;
 }
 .murmurlabs{
+    display: flex;
+    align-items: center;
     background-color: #464646;
     bottom: 0%;
     position: fixed;
@@ -347,9 +355,8 @@ body{
 }
 .dc{
     /* width: 10%; */
-    height: 100%;
     font-size: 4vh;
-    margin: 0.4rem 2%;
+    margin: 0 3px;
     float: left;
     padding: 0.3%;
 }
@@ -359,17 +366,16 @@ body{
     text-decoration: none;
 }
 .r{
-    height: 100%;
-    font-size: 4vh;
-    margin: 3px;
-    float: right;
+    font-size: x-large;
+    /* margin: 0 3px 0 3px; */
     font-family: monospace;
     background: black;
     border-radius: 100px;
-    height: 100%;
-    width: 15%;
+    /* height: 100%; */
+    width: 14.5%;
+    aspect-ratio: 1;
     max-width: 6vh;
-    max-height: 18vw;
+    /* max-height: 18vw; */
     text-align: center;
     /* border: 3px solid #81005c; */
 }
