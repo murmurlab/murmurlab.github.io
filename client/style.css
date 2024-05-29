@@ -68,7 +68,6 @@ body{
 }
 
 .routes{
-    font-size: xxx-large !important;
     margin: auto !important;
     position: sticky;
     left: 50%;
@@ -113,7 +112,7 @@ body{
 }
 .type{
     color: black;
-    font-size: 4vh;
+    font-size: max(5vh, 7vw);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
     align-items: center;
@@ -356,9 +355,9 @@ body{
 }
 .dc{
     /* width: 10%; */
-    font-size: 4vh;
+    font-size: min(4vh, 9vw);
     margin: 0 3px;
-    float: left;
+    /* float: left; */
     padding: 0.3%;
 }
 .uzay{
@@ -367,7 +366,7 @@ body{
     text-decoration: none;
 }
 .r{
-    font-size: x-large;
+    font-size: min(4vh, 9vw);
     /* margin: 0 3px 0 3px; */
     font-family: monospace;
     background: black;
