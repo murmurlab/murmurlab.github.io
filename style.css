@@ -169,7 +169,7 @@ body{
 }
 .spacex{
     display:inline-block;
-    margin-top: min(19vh, 19vw);
+    margin-top: min(19vh, 22vw);
 }
 .links{
     text-align: center;
@@ -184,7 +184,7 @@ body{
     text-wrap: nowrap;
     font-family: cursive;
     height: 100%;
-    font-size: max(2.5vh, 4vw);
+    font-size: max(3vh, 4vw);
     line-height: 6vmax;
     border-radius: 1rem;
     text-decoration: none;
@@ -309,7 +309,7 @@ body{
     text-shadow: 0 0 0.5vh #ff0000, 0 0 0.5vh #0000ff; */
 }
 .butter:hover{
-    font-size: max(3vh, 5vw);
+    font-size: max(3.5vh, 5vw);
     border-radius: 0.5rem;
     box-shadow: 0rem 0.1rem 0.8rem #ff0000, 
     0rem -0.1rem 0.8rem #ff0000,
