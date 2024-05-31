@@ -167,6 +167,10 @@ body{
     padding: 0px;
     border-radius: 2rem;
 }
+.spacex{
+    display:inline-block;
+    margin-top: min(19vh, 19vw);
+}
 .links{
     text-align: center;
     color: white;
@@ -176,8 +180,10 @@ body{
 }
 .butter{
     overflow-wrap: break-word;
+    text-wrap: nowrap;
     font-family: cursive;
-    font-size: 4vmax;
+    height: 100%;
+    font-size: max(2.5vh, 4vw);
     line-height: 6vmax;
     border-radius: 1rem;
     text-decoration: none;
@@ -302,13 +308,13 @@ body{
     text-shadow: 0 0 0.5vh #ff0000, 0 0 0.5vh #0000ff; */
 }
 .butter:hover{
-    font-size: 5vmax;
+    font-size: max(3vh, 5vw);
     border-radius: 0.5rem;
     box-shadow: 0rem 0.1rem 0.8rem #ff0000, 
     0rem -0.1rem 0.8rem #ff0000,
     0.1rem 0rem 0.8rem #ff0000,
     -0.1rem 0rem 0.8rem #ff0000 ;
-    text-decoration: none;
+    /* text-decoration: none; */
     /* background-color: white; */
     font-style: normal;
     /* float: left; */
